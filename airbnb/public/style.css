@@ -1,5 +1,8 @@
+/* * {
+  box-sizing: border-box;
+} */
 
-body{
+body {
   font-family: "Poppins", sans-serif;
 }
 
@@ -19,19 +22,41 @@ section {
   padding: 20px;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.grey {
+  color: #918e9b;
+}
+
 .Hero {
   display: flex;
   flex-direction: column;
 }
 
-.title{
+.title {
   margin-bottom: 16px;
 }
 
-.desc{
+.desc {
   margin-top: 0px;
 }
 
 .nav--logo {
   max-width: 100px;
+}
+
+.card-star {
+  height: 14px;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 9px;
 }
